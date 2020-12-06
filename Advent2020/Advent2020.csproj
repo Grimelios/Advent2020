@@ -52,6 +52,8 @@
     <Compile Include="Solver3.cs" />
     <Compile Include="Solver5.cs" />
     <Compile Include="Solver6.cs" />
+    <Compile Include="Solver7.cs" />
+    <Compile Include="Solver8.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
