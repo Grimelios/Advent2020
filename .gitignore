@@ -1,0 +1,8 @@
+# Files
+*.blend1
+
+# Folders
+.vs
+bin
+obj
+packages
