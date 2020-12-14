@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -45,23 +46,23 @@ namespace Advent2020
 				}
 			}
 			
-			var r = 0;
-			var step = buses[0].Bus;
+			var r = new BigInteger();
+			var step = new BigInteger(buses[0].Bus);
+			var t = new BigInteger();
 
-			for (int bus = 0; bus < buses.Length - 1; bus++)
+			for (int bus = 1; bus < buses.Length; bus++)
 			{
-				var a = buses[bus].Bus;
-				var b = buses[bus + 1].Bus;
-				var u = buses[bus + 1].Index;
+				var b = buses[bus].Bus;
+				var u = buses[bus].Index - buses[bus - 1].Index;
 				var m = 1;
 
 				while (true)
 				{
-					var t = m * a;
+					t = m * step + r;
 
-					if (t % b == b - u)
+					if ((t + buses[bus - 1].Index) % b == b - u)
 					{
-						r += t;
+						r = t;
 						step *= b;
 
 						break;
@@ -71,7 +72,7 @@ namespace Advent2020
 				}
 			}
 
-			return null;
+			return t;
 		}
 	}
 }
