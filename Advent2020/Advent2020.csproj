@@ -46,6 +46,7 @@
     <Compile Include="Solver10.cs" />
     <Compile Include="Solver12.cs" />
     <Compile Include="Solver13.cs" />
+    <Compile Include="Solver14.cs" />
     <Compile Include="Solver4.cs" />
     <Compile Include="Solver.cs" />
     <Compile Include="Solver1.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Solver9.cs" />
     <Compile Include="Structures\AngleUnits.cs" />
     <Compile Include="Structures\Vec2.cs" />
+    <Compile Include="Utility\Extensions.cs" />
     <Compile Include="Utility\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +115,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Input\Input13.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Input\Input14.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
