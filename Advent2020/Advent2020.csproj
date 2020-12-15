@@ -40,6 +40,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solver15.cs" />
     <Compile Include="Solver11.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -47,6 +48,16 @@
     <Compile Include="Solver12.cs" />
     <Compile Include="Solver13.cs" />
     <Compile Include="Solver14.cs" />
+    <Compile Include="Solver16.cs" />
+    <Compile Include="Solver17.cs" />
+    <Compile Include="Solver18.cs" />
+    <Compile Include="Solver19.cs" />
+    <Compile Include="Solver20.cs" />
+    <Compile Include="Solver21.cs" />
+    <Compile Include="Solver22.cs" />
+    <Compile Include="Solver23.cs" />
+    <Compile Include="Solver24.cs" />
+    <Compile Include="Solver25.cs" />
     <Compile Include="Solver4.cs" />
     <Compile Include="Solver.cs" />
     <Compile Include="Solver1.cs" />
@@ -120,6 +131,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Input\Input14.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Input\Input15.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Input\Input16.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input17.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input18.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input19.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input20.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input21.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input22.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input23.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input24.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Input25.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
